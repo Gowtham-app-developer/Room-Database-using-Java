@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RoomDatabaseApplication</string>
+    <string name="empty">Field is empty!!!</string>
+</resources>
