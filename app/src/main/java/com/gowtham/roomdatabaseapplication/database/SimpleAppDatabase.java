@@ -11,10 +11,10 @@ import com.gowtham.roomdatabaseapplication.model.Contact;
 @Database(entities = {Contact.class}, version  = 1)
 public abstract class SimpleAppDatabase extends RoomDatabase {
 
-    public abstract PersonDao userDao();
-
     private static SimpleAppDatabase INSTANCE;
     private static final String DATABASE_NAME = "contact_database";
+
+    public abstract PersonDao userDao();
 
     public static SimpleAppDatabase getDbInstance(Context context) {
 

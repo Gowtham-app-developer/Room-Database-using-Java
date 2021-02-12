@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadUserList() {
+
         SimpleAppDatabase db = SimpleAppDatabase.getDbInstance(this.getApplicationContext());
         List<Contact> userList = db.userDao().loadAllPersons();
         if(userList != null && userList.size() > 0) {

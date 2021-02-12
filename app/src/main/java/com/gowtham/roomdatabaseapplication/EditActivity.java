@@ -47,8 +47,7 @@ public class EditActivity extends AppCompatActivity {
                     populateUI(person);
                 }
             });
-
-
+            
         }
 
     }
